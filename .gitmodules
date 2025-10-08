@@ -1,0 +1,6 @@
+[submodule "cs-demo-manager"]
+	path = cs-demo-manager
+	url = https://github.com/Kamiloo13/csdm-fork.git
+[submodule "Demo2Video"]
+	path = Demo2Video
+	url = https://github.com/norton62/Demo2Video.git
