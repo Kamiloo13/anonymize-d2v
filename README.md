@@ -21,7 +21,7 @@
 Run these commands in your project’s root directory:
 
 ```bash
-git submodule update --init --recursive --depth=1
+git submodule update --init
 ```
 
 This will clone all submodules into their respective folders.
@@ -39,10 +39,12 @@ cd cs-demo-manager
 npm install
 cd ..
 
-cd demo2video
-npm install
+cd Demo2video
+pip install -r requirements.txt
 cd ..
 ```
+
+Follow instructions in submodules in their repos to install them properly
 
 ---
 
