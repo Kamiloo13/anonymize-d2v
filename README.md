@@ -7,6 +7,7 @@
 3. Inside the extracted folder, you’ll find a directory called `win-unpacked`.
 4. Rename that folder to **`OpenHud`** and place it in the main directory.
 5. Go to `./OpenHud/resources/src/assets` and copy file `gamestate_integration_openhud.cfg` to cs2 cfg folder `./game/csgo/cfg`
+6. Add source in OBS (Browser) with `http://localhost:1349/hud`, remove Custom CSS and set width and height
 ---
 
 ## 🧰 2. Install HLAE
@@ -44,6 +45,8 @@ pip install -r requirements.txt
 cd ..
 ```
 
+- Remember to change Demo2video `config.ini`
+
 Follow instructions in submodules in their repos to install them properly
 
 ---
@@ -71,7 +74,7 @@ Follow instructions in submodules in their repos to install them properly
 ---
 
 ## 6. Modify `start.bat`
-Make sure that all of the paths are correct (espsecially OBS path)
+Make sure that all of the paths are correct (especially OBS path)
 
 ---
 
@@ -88,7 +91,7 @@ CSWatch-Anonymizer/
 ├─ cs-demo-manager/
 │  ├─ node_modules/
 │  └─ package.json
-├─ demo2video/
+├─ Demo2video/
 │  ├─ node_modules/
 │  └─ package.json
 └─ ...
